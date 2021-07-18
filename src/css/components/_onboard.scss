@@ -1,0 +1,30 @@
+.onboard {
+    .button {
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    .button.next-button {
+        min-width: 125px;
+        float: right;
+    }
+    .button.next-button.solo {
+        margin-left: 100px; // leaves space for back button
+    }
+
+    .button.back-button {
+      min-width: 75px;
+      margin-right: 25px;
+    }
+
+    // TODO: maybe fluid container?
+    .wide-margin-right {
+        margin-right: 20px;
+    }
+
+    label {
+        color: #afafaf; // TODO: $body-font-color from _settings.scss
+        font-size: 15px;
+        font-weight: bolder;
+    }
+}

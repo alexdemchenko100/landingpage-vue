@@ -1,0 +1,39 @@
+.main-footer {
+  clear: both;
+  margin-top: 4rem;
+  padding-top: 8rem;
+}
+
+.main-footer .wrapper {
+  border-top: 2px solid #A18147;
+  padding-top: 2rem;
+}
+
+.main-footer .logo-copyright {
+  float: left;
+  width:38%;
+}
+
+.footer--nav {
+  float: right;
+  width: 60%;
+  text-align: right;
+}
+
+.footer--nav a:last-child {
+  margin-right: 0;
+}
+
+.footer--nav a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 40px 0;
+  padding-top: 0;
+  text-align: right;
+  margin-right: 2rem;
+  font-size: 12px;
+  letter-spacing: 2px;
+  vertical-align: middle;
+}

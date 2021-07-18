@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="223px" height="224px" viewBox="0 0 223 224" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" transform="translate(-138.000000, -99.000000)">
+            <g id="logo-1" transform="translate(138.000000, 99.000000)">
+                <polygon id="Fill-25" fill="#FFFFFF" fill-rule="nonzero" points="78.398 31.425 31.153 31.425 31.153 194.030084 78.398 223.234841"></polygon>
+                <polygon id="Fill-26" fill="#FFFFFF" fill-rule="nonzero" points="0.176994172 78.648 192.022 78.648 192.022 31.425 29.3823455 31.425"></polygon>
+                <polygon id="Fill-27" fill="#FFFFFF" fill-rule="nonzero" points="144.793 192.26 192.022 192.26 192.022 29.6541296 144.793 0.439689283"></polygon>
+                <polygon id="Fill-28" fill="#FFFFFF" fill-rule="nonzero" points="66.398 145.07 66.398 192.26 193.792634 192.26 222.977071 145.07"></polygon>
+                <polyline id="Fill-32" fill="#312D34" opacity="0.618716033" points="78.398 144.07 95.443935 192.259999 78.398 192.259999 78.398 144.07"></polyline>
+                <polyline id="Fill-32" fill="#312D34" opacity="0.618716033" transform="translate(54.920968, 87.164999) rotate(-270.000000) translate(-54.920968, -87.164999) " points="46.398 63.07 63.443935 111.259999 46.398 111.259999 46.398 63.07"></polyline>
+                <polyline id="Fill-32" fill="#312D34" opacity="0.618716033" transform="translate(135.920968, 55.164999) rotate(-180.000000) translate(-135.920968, -55.164999) " points="127.398 31.07 144.443935 79.2599986 127.398 79.2599986 127.398 31.07"></polyline>
+                <polyline id="Fill-32" fill="#312D34" opacity="0.618716033" transform="translate(167.920968, 136.164999) rotate(-90.000000) translate(-167.920968, -136.164999) " points="159.398 112.07 176.443935 160.259999 159.398 160.259999 159.398 112.07"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

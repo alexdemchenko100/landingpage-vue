@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="100px" viewBox="0 0 63 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>grow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-4" transform="translate(-211.000000, -166.000000)" stroke="#FFFFFF" stroke-width="1.4">
+            <g id="grow" transform="translate(204.000000, 167.000000)">
+                <g id="Group-4" transform="translate(15.000000, 58.000000)" stroke-linecap="round">
+                    <polygon id="Rectangle" points="45.3549973 10.1990167 39.9032258 39.9990159 10.0967742 39.9990159 4.64949924 10.2235953"></polygon>
+                    <rect id="Rectangle-2" x="0" y="0" width="50" height="10"></rect>
+                </g>
+                <path d="M40,20.8888889 C44.418278,20.8888889 48,17.3071669 48,12.8888889 C48,8.47061089 40.1959839,0 40,0 C39.8040161,3.13347746e-17 32,8.47061089 32,12.8888889 C32,17.3071669 35.581722,20.8888889 40,20.8888889 Z" id="Oval"></path>
+                <path d="M40,14 L40,58" id="Line" stroke-linecap="round"></path>
+                <g id="Group-3" transform="translate(58.000000, 25.500000) rotate(-1.000000) translate(-58.000000, -25.500000) translate(41.000000, 10.000000)">
+                    <path d="M19.2997489,26.2565922 C24.1626163,26.2565922 28.1047492,22.3144593 28.1047492,17.4515919 C28.1047492,12.5887245 19.9991044,3.26575811 19.2997489,3.26575811 C18.6003934,3.26575811 10.4947486,12.5887245 10.4947486,17.4515919 C10.4947486,22.3144593 14.4368815,26.2565922 19.2997489,26.2565922 Z" id="Oval" transform="translate(19.299749, 14.761175) rotate(-312.000000) translate(-19.299749, -14.761175) "></path>
+                    <path d="M18.7074481,15.139811 L0.192153872,30.6759876" id="Line" stroke-linecap="round"></path>
+                </g>
+                <g id="Group-3" transform="translate(20.410000, 32.000000) scale(-1, 1) rotate(1.000000) translate(-20.410000, -32.000000) translate(0.910000, 14.000000)">
+                    <path d="M20.7056115,31.8694819 C26.5902053,31.8694819 31.3606112,27.099076 31.3606112,21.2144821 C31.3606112,15.3298883 21.551907,4.04809366 20.7056115,4.04809366 C19.8593159,4.04809366 10.0506117,15.3298883 10.0506117,21.2144821 C10.0506117,27.099076 14.8210176,31.8694819 20.7056115,31.8694819 Z" id="Oval" transform="translate(20.705611, 17.958788) rotate(-312.000000) translate(-20.705611, -17.958788) "></path>
+                    <path d="M20.2307218,19.2457746 L0.681267271,35.6497146" id="Line" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

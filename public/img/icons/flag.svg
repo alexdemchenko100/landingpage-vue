@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="85px" viewBox="0 0 78 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>flag</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-4" transform="translate(-544.000000, -342.000000)" stroke="#FFFFFF" stroke-width="1.4">
+            <g id="flag" transform="translate(545.000000, 343.000000)">
+                <rect id="Rectangle-8" x="0" y="0" width="6" height="83"></rect>
+                <path d="M7.38461538,4 L44.6923077,4 L44.6923077,13.0615234 M32.8447266,42.3076923 L6.38461538,42.3076923" id="Rectangle-4"></path>
+                <polygon id="Rectangle-4" points="32.9230769 13.7051282 75.4230769 13.7051282 63.7179487 33.9230769 75.4230769 54.1410256 32.9230769 54.1410256"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

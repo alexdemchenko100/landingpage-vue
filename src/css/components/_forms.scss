@@ -1,0 +1,110 @@
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding-left: 0;
+  color: white;
+  &:focus {
+    border-bottom: 2px solid #EEBC57;
+    background-color: inherit;
+  }
+}
+
+.onboard-form textarea {
+  background: rgba(0,0,0,.4);
+  border: none;
+  margin-top: 1rem;
+  border-bottom: 2px solid #ccc;
+  color: white;
+  &:focus {
+    border-bottom: 2px solid #EEBC57;
+    background: rgba(0,0,0,.8);
+  }
+}
+
+label {
+  color: white;
+}
+
+.onboard h4 {
+  text-transform: uppercase;
+  letter-spacing:12px;
+  color: white;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.onboard-form {
+  margin: auto;
+  max-width: 540px;
+  padding: 40px 50px;
+  background: rgba(0,0,0,.4);
+  border-radius: 3px;
+  z-index: 999;
+  h5 {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+    color: white;
+  }
+}
+
+.register-form {
+  margin-top: -15rem;
+}
+
+.form-row {
+  margin-bottom: 2rem;
+  overflow: visible;
+  label {
+    color: white;
+  }
+  &:before,
+  &:after {
+      content:"";
+      display:table;
+  }
+  &:after {
+      clear:both;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.onboard-form label.half {
+  display: block;
+  padding-right: 0;
+  width: 47.5%;
+  float: left;
+  &:nth-child(2n) {
+    margin-left: 5%;
+  }
+}
+
+.onboard-text {
+  font-size: 15px;
+  padding-top: 2rem;
+  b, h5 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+  }
+  li {
+    margin-bottom: 2rem;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    b, h5 {
+      display: block;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: 12px;
+    }
+  }
+}

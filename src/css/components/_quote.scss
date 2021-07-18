@@ -1,0 +1,38 @@
+.quote {
+    clear: both;
+    padding-top: 4rem;
+}
+
+#single-founder .quote {
+    padding-bottom: 4rem;
+}
+
+.quote {
+
+    blockquote {
+        font-size: 26px;
+        @media(min-width: 720px) {
+            font-size: 52px;
+        }
+        font-family: "Pensum", serif;
+        font-weight: 200;
+        color: white;
+        text-indent: -.4em;
+        max-width: 800px;
+        line-height: 1.6;
+    }
+
+    cite {
+        color: rgba(255,255,255,0.7);
+        @media(min-width: 720px) {
+            padding-left: 2rem;
+        }
+        .dash {
+            color: #EEBC57;
+        }
+        &:before {
+            display: none;
+        }
+    }
+
+}

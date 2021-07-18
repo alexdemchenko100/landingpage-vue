@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'GT';
+  src:  url('/public/fonts/GT-Walsheim-Medium.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'GT';
+  src:  url('/public/fonts/GT-Walsheim-Medium-Oblique.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT';
+  src:  url('/public/fonts/GT-Walsheim-Light.woff') format('woff');
+  font-weight: light;
+}
+
+@font-face {
+  font-family: 'GT';
+  src:  url('/public/fonts/GT-Walsheim-Light-Oblique.woff') format('woff');
+  font-weight: light;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Pensum';
+  src:  url('/public/fonts/PensumPro-Medium.woff') format('woff'),
+        url('/public/fonts/PensumPro-Medium.woff2') format('woff2');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Pensum';
+  src:  url('/public/fonts/PensumPro-Light.woff') format('woff'),
+        url('/public/fonts/PensumPro-Light.woff2') format('woff2');
+  font-weight: 200;
+}
+
+body {
+  font-weight: light;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    @media(min-width: 720px) {
+      letter-spacing: 20px;
+    }
+    text-transform: uppercase;
+    font-family: 'GT', serif;
+}
+
+.uc {
+  text-transform: uppercase;
+  letter-spacing: .3em;
+}
+
+.uc-inline {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  border-bottom: 1px solid #EEBC57;
+}
+
+.standout {
+  color: white;
+  font-style: italic;
+}

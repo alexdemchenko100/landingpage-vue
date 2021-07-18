@@ -1,0 +1,19 @@
+.main-nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.main-nav a,
+.footer--nav a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 40px 0;
+  margin-right: 2rem;
+  font-size: 12px;
+  letter-spacing: 2px;
+  vertical-align: middle;
+}

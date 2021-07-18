@@ -1,0 +1,35 @@
+.sideways-heading {
+    width: 235px;
+    text-align: right;
+    position: relative;
+    transform: rotate(90deg);
+    transform-origin: 0 10px;
+    display: none;
+    @media(min-width: 850px) {
+        display: block;
+    }   
+}
+
+.sideways-heading:before {
+    content: '';
+    display: block;
+    height: 1px;
+    background: #EEBC57;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.sideways-heading--text {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 12px;
+    display: inline-block;
+    padding: 10px 10px 10px 40px;
+    background: #2D292F;
+    position: relative;
+    z-index: 99;
+    color: white;
+    font-weight: normal;
+}
