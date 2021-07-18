@@ -32,7 +32,11 @@ processes.db.on('start', function () {
   console.log('------------------------------------------------');
   console.log('\nStarting Node server...');
 
-  processes.server.start();
+  if (process.env.NODE_ENV != 'production') {
+    processes.server.restart();
+  } else {
+    processes.server.start();
+  }
 });
 
 processes.db.on('exit', function () {
