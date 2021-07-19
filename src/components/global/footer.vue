@@ -9,7 +9,10 @@
               About
             </router-link>
             <router-link :to="{ name: 'founders' }">
-              Founders
+              Companies
+            </router-link>
+            <router-link :to="{ name: 'inspire' }">
+              Industries
             </router-link>
             <router-link :to="{ name: 'network' }">
               Network

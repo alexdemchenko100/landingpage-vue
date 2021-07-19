@@ -13,7 +13,7 @@ Some of the the tech used for this web platform:
 
 ## Installation
 
-**Requires Node.js 6+**
+**Requires Node.js 6.x.x**
 
 ```bash
 # Clone the github repo

@@ -34,6 +34,15 @@
             </div>
             <featured-company />
             <featured-founder />
+             <div class="quote">
+                <blockquote>
+                    “Growing up in a creative household, I learned to be a creative thinker.”
+                </blockquote>
+                <cite class="uc">
+                    <span class="dash">–</span> Camille Hearst, Co-founder and CEO, Kit
+                </cite>
+            </div>
+            <values />
         </div>
     </div>
 </template>

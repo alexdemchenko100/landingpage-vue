@@ -1,105 +1,138 @@
 .hero {
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url("/public/img/hero-header.jpg");
-    background-size: cover;
-    background-position: center center;
-    padding: 0;
-    margin: 0;
-    position: relative;
+	height: 90vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	background-image: url(/public/img/founders/camille-header.jpg);
+	background-size: cover;
+	background-position: 50%;
+	padding: 0;
+	margin: 0;
+	position: relative;
+
+	&:after {
+		height: 120px;
+		background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #2d292f), to(transparent));
+		background: linear-gradient(0deg, #2d292f, transparent);
+		z-index: 999;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		content: "";
+	}
+
+	&:before {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		content: "";
+		top: 0;
+		background: rgba(0, 0, 0, .7);
+	}
 }
 
 .hero__onboard {
-    height: 74vh;
-    z-index: -1;
+	height: 74vh;
+	z-index: -1;
+}
+
+.hero__team {
+	height: 48vh;
 }
 
 .hero__founders-page {
-    background-position: center right;
+	background-position: 50%;
 }
 
-.hero:after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 120px;
-    background: linear-gradient(to top, #2D292F 0%,rgba(0,0,0,0) 100%);
-    content: '';
-    z-index: 999;
-}
-
-.hero__founder:before {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    content: '';
-    background: rgba(0,0,0,.6);
-    z-index: 1;
+.hero__founder {
+	&:before {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		content: "";
+		background: rgba(0, 0, 0, .6);
+		z-index: 1;
+	}
 }
 
 .hero-header {
-    text-align: center;
-    z-index: 99;
+	text-align: center;
+	z-index: 99;
 }
 
 .founder-header--name {
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    font-size:20px;
-    @media(min-width: 720px) {
-        letter-spacing: 18px;
-        font-size:30px;
-    }
-    color: white;
-    display: block;
-    margin-bottom: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 20px;
+	color: #fff;
+	display: block;
+	margin-bottom: 32px;
+	margin-bottom: 2rem;
 }
 
 .founder-header--company {
-    font-size: 24px;
-    display: block;
-    font-weight: normal;
+	font-size: 24px;
+	display: block;
+	font-weight: 400;
 }
 
 .hero-header--big {
-    font-size: 100px;
-    @media(min-width: 750px) {
-        font-size: 180px;
-    }
-    font-family: "Pensum", serif;
-    color: white;
-    opacity: .08;
-    display: block;
-    font-weight: normal;
-    -webkit-font-smoothing: subpixel-antialiased;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
+	font-size: 100px;
+	font-family: Pensum, serif;
+	color: #fff;
+	opacity: .08;
+	display: block;
+	font-weight: 400;
+	-webkit-font-smoothing: subpixel-antialiased;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
 }
 
 .hero-header--small {
-    text-transform: uppercase;
-    letter-spacing: 9px;
-    font-size: 15px;
-    color: white;
-    display: block;
-    font-weight: normal;
-    -webkit-font-smoothing: subpixel-antialiased;
-    margin: 0;
-    padding: 0;
-    line-height: 0;
-    padding-top: 1rem;
-    /* padding: 3rem 0; */
+	text-transform: uppercase;
+	letter-spacing: 9px;
+	font-size: 15px;
+	color: #fff;
+	display: block;
+	font-weight: 400;
+	-webkit-font-smoothing: subpixel-antialiased;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+	padding-top: 16px;
+	padding-top: 1rem;
 }
 
 .hero-logo {
-    width: 80%;
-    max-width: 400px;
-    margin-top: 2rem;
+	width: 80%;
+	max-width: 400px;
+	margin-top: 32px;
+	margin-top: 2rem;
+}
+
+@media (min-width:720px) {
+	.founder-header--name {
+		letter-spacing: 18px;
+		font-size: 30px;
+	}
+}
+
+@media (min-width:750px) {
+	.hero-header--big {
+		font-size: 180px;
+	}
+
 }
