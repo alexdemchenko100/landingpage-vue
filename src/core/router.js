@@ -60,6 +60,11 @@ export function createRouter (store) {
         component: () => import(/* webpackChunkName: "about" */ '../components/about.vue')
       },
       {
+        name: 'inspire',
+        path: '/inspire',
+        component: () => import(/* webpackChunkName: "about" */ '../components/inspire.vue')
+      },
+      {
         name: 'founders',
         path: '/founders',
         component: () => import('../components/founders.vue')

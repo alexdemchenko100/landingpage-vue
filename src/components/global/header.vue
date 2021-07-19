@@ -9,38 +9,27 @@
                         </router-link>
                     </li>
                     <li>
-                        <router-link :to="{ name: 'about' }" class="vertical-align-middle">
-                            <span class="show-for-medium">About</span>
-                        </router-link>
-                    </li>
-                    <li>
                         <router-link :to="{ name: 'founders' }" class="vertical-align-middle">
                             <span class="show-for-medium">Founders</span>
                         </router-link>
                     </li>
                     <li>
-                        <router-link :to="{ name: 'network' }" class="vertical-align-middle">
-                            <span class="show-for-medium">Authentic Ventures Network</span>
+                        <router-link :to="{ name: 'inspire' }" class="vertical-align-middle">
+                            <span class="show-for-medium">Inspire</span>
+                        </router-link>
+                    </li>
+                    <li>
+                        <router-link :to="{ name: 'about' }" class="vertical-align-middle">
+                            <span class="show-for-medium">Us</span>
                         </router-link>
                     </li>
                 </ul>
             </div>
             <div class="top-bar-right">
                 <ul class="menu align-right">
-                    <li v-if="uid">
-                        <router-link :to="{ name: 'profile' }">
-                            <span class="show-for-medium">Profile</span>
-                        </router-link>
-                    </li>
                     <li>
-                        <router-link v-if="!uid" :to="{ name: 'register' }">
-                            <span class="show-for-medium">Join Us</span>
-                        </router-link>
-                        <router-link v-if="!uid" :to="{ name: 'login' }">
-                            <span class="show-for-medium">Login</span>
-                        </router-link>
-                        <router-link v-if="uid" :to="{ name: 'logout' }">
-                            <span class="show-for-medium">Logout</span>
+                        <router-link :to="{ name: 'network' }">
+                            <span class="show-for-medium">Our Network</span>
                         </router-link>
                     </li>
                 </ul>
@@ -51,26 +40,17 @@
                 </a>
             </div>
             <div v-if="!collapsed" class="menu-small show-for-small-only">
-                <router-link :to="{ name: 'about' }" class="block-link vertical-align-middle" v-on:click=" collapsed = !collapsed">
-                    About
-                </router-link>
                 <router-link :to="{ name: 'founders' }" class="block-link vertical-align-middle">
                     Founders
                 </router-link>
-                <router-link :to="{ name: 'network' }" class="block-link vertical-align-middle">
-                    Authentic Ventures Network
+                <router-link :to="{ name: 'inspire' }" class="block-link vertical-align-middle">
+                    Inspire
                 </router-link>
-                <router-link v-if="uid" :to="{ name: 'profile' }">
-                    Profile
+                <router-link v-if="uid" :to="{ name: 'about' }">
+                    Us
                 </router-link>
-                <router-link v-if="!uid" :to="{ name: 'register' }">
-                    Join Us
-                </router-link>
-                <router-link v-if="!uid" :to="{ name: 'login' }">
-                    Login
-                </router-link>
-                <router-link v-if="uid" :to="{ name: 'logout' }">
-                    Logout
+                <router-link v-if="!uid" :to="{ name: 'network' }">
+                    Our Network
                 </router-link>
             </div>
         </nav>
@@ -98,42 +78,90 @@
 <style lang="scss" scoped>
     @import '../../css/settings';
 
-    $white: get-color(white);
+    $white: #fefefe;
 
     a {  color: $white;  }
     i { margin-right: 1em; }
 
-    nav.top-bar { background-color: transparent; }
+    nav.top-bar {
+        background-color: transparent;
+        display: flex;
+        align-items: baseline;
 
-    .top-header {
-        position: absolute;
-        z-index: 99999;
-        width: 100%;
-        padding-top: 2rem;
+        .top-bar-left {
+            ul {
+                background-color: transparent;
+            }
+        }
+
+        .top-bar-right {
+            ul {
+                background-color: transparent;
+                margin-top: -10px;
+            }
+        }
+
+        .logo {
+            img {
+                height: 50px;
+            }
+        }
+
+        a {
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-weight: 700;
+            font-size: 11px;
+
+            &:hover {
+                color: #eebc57;
+            }
+        }
     }
 
-    nav.top-bar {
-        .top-bar-left ul { background-color: transparent; }
-        .top-bar-right ul { background-color: transparent; }
-        .logo img { height: 50px; }
-        ul li .vertical-align-middle { margin-top: 15px; }
-        a { text-transform: uppercase; letter-spacing: 5px; font-weight: bold; font-size: 11px;}
-        a:hover { color: #EEBC57; }
+    .top-header {
+        position: fixed;
+        z-index: 99999;
+        width: 100%;
+        padding-top: 0;
+        background: #2d292f;
+
+        li {
+            align-items: center;
+            display: flex;
+        }
     }
 
     .menu-small {
         position: absolute;
-        top: 120px;
+        top: 44px;
         bottom: 0;
         left: 0;
         right: 0;
         width: 100%;
-        background-color: black;
+        background-color: #000;
         height: 100vh;
+
         a {
             display: block;
             padding: 40px 0 20px;
             text-align: center;
+        }
+    }
+
+    @media (max-width:700px) {
+
+        .top-header {
+            padding-top: 0;
+            background: #000;
+        }
+
+        nav.top-bar {
+            .logo {
+                img {
+                    height: 30px;
+                }
+            }
         }
     }
 
