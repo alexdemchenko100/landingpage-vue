@@ -8,14 +8,17 @@
             </router-link>
         </div>
         <div class="featured-founder--images--small">
-            <router-link :to="{ name: 'camille-hearst' }"><img src="public/img/kit-logo.png" /></router-link>
+            <a href="https://patreon.com"><img src="public/img/kit-patreon.png" /></a>
             <router-link :to="{ name: 'camille-hearst' }" class="view-link">View Profile</router-link>
         </div>
     </div>
     <div class="featured-founder--bio">
         <h3>Camille Hearst</h3>
         <p>
-            Camille believes that by leveraging all kinds of people, thoughts, ideas, opinions and backgrounds, we can help and learn from each other. She is CEO and co-founder of KIT, a company that helps creators share products they love with their followers.
+          Camille believes that by leveraging all kinds of people, thoughts, ideas, opinions and backgrounds, we can help and learn from each other. Camille co-founded KIT, a company that helps creators share products they love with their followers.
+        </p>
+        <p>
+          Kit was acquired in 2018 by Patreon, where Camille now serves as head of product. Patreon is the leading platform for creators to connect directly with their fans and followers
         </p>
     </div>
   </div>
