@@ -72,7 +72,7 @@
   },
   "engines": {
     "node": "^6.10.0",
-    "npm": ">= 3.x.x"
+    "npm": "^3.10.10"
   },
   "resolutions": {
     "webpack-sources": "1.0.1"
