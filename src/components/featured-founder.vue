@@ -20,6 +20,9 @@
         <p>
           Kit was acquired in 2018 by Patreon, where Camille now serves as head of product. Patreon is the leading platform for creators to connect directly with their fans and followers
         </p>
+        <p>
+          <router-link :to="{ name: 'camille-hearst' }" class="view-link">View Profile</router-link>
+        </p>
     </div>
   </div>
 </template>

@@ -46,10 +46,10 @@
                 <router-link :to="{ name: 'inspire' }" class="block-link vertical-align-middle">
                     Inspire
                 </router-link>
-                <router-link v-if="uid" :to="{ name: 'about' }">
+                <router-link :to="{ name: 'about' }" class="block-link vertical-align-middle">
                     Us
                 </router-link>
-                <router-link v-if="!uid" :to="{ name: 'network' }">
+                <router-link :to="{ name: 'network' }" class="block-link vertical-align-middle">
                     Our Network
                 </router-link>
             </div>
