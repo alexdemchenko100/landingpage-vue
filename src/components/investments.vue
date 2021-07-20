@@ -7,28 +7,32 @@
       </div>
     </div>
 
-    <div class="grid-x grid-margin-x">
-      <div class="medium-4 cell">
-        <a href="https://www.apartmentlist.com/" target="_blank"><img class="centered" src="public/img/investments/apartment-list.png"></a>
-        <a href="https://www.applovin.com/" target="_blank"><img class="centered" src="public/img/investments/applovin.png"></a>
-        <a href="https://basketsavings.com/" target="_blank"><img class="centered" src="public/img/investments/basket-savings.png"></a>
-        <a href="https://brkt.com/" target="_blank"><img class="centered" src="public/img/investments/bracket-computing.png"></a>
-        <a href="https://www.cambly.com/english?lang=en" target="_blank"><img class="centered" src="public/img/investments/cambly.jpg"></a>
-      </div>
-      <div class="medium-4 cell">
-        <a href="https://www.chatsports.com/" target="_blank"><img class="centered" src="public/img/investments/chat-sports.png"></a>
-        <a href="https://www.fixedlaw.com/" target="_blank"><img class="centered" src="public/img/investments/fixed-law.jpeg"></a>
-        <a href="https://fugue.co/" target="_blank"><img class="centered" src="public/img/investments/fugue1.jpeg"></a>
-        <a href="https://gametime.co/" target="_blank"><img class="centered" src="public/img/investments/gametime.png"></a>
-        <a href="http://www.guardanthealth.com/" target="_blank"><img class="centered" src="public/img/investments/guardant.png"></a>
-      </div>
-      <div class="medium-4 cell">
-        <a href="https://imprint.us/" target="_blank"><img class="centered" src="public/img/investments/imprint-us.jpeg"></a>
-        <a href="http://luminetx.com" target="_blank"><img class="centered" src="public/img/investments/luminetx.jpeg"></a>
-        <a href="https://www.periscopedata.com/" target="_blank"><img class="centered" src="public/img/investments/periscope-data.png"></a>
-        <a href="https://www.therapydia.com/" target="_blank"><img class="centered" src="public/img/investments/therapydia.png"></a>
-        <a href="https://vacatia.com/" target="_blank"><img class="centered" src="public/img/investments/vacatia.jpeg"></a>
-      </div>
+    <div class="investments-grid" >
+      <a href="https://www.applovin.com/" target="_blank" class="investment-item" >
+        <img src="/public/img/logos/applovin.png" alt="AppLovin" >
+      </a>
+      <a href="https://guardanthealth.com/" target="_blank" class="investment-item" >
+        <img src="/public/img/logos/guardant.png" alt="Guardant health" >
+      </a>
+      <a
+        href="https://www.sisense.com/" target="_blank" class="investment-item" >
+        <img src="/public/img/logos/periscope-acq.png" alt="Periscope Data" >
+      </a>
+      <a href="https://gametime.co/" target="_blank" class="investment-item" >
+        <img src="/public/img/logos/gametime.png" alt="Game Time" >
+      </a>
+      <a href="https://www.apartmentlist.com/" target="_blank" class="investment-item" >
+        <img src="/public/img/logos/apartmentlist.png" alt="Apartment List" >
+      </a>
+      <a href="https://www.cambly.com/" target="_blank" class="investment-item" >
+        <img src="/public/img/logos/cambly.png" alt="Cambly" >
+      </a>
+      <a href="https://www.fugue.co/" target="_blank" class="investment-item" >
+        <img src="/public/img/logos/fugue.png" alt="Fugue" >
+      </a>
+      <a href="https://www.chatsports.com/" target="_blank" class="investment-item" >
+        <img src="/public/img/logos/chatsports.png" alt="Chat Sports" >
+      </a>
     </div>
   </div>
 </template>
@@ -44,10 +48,23 @@
 <style lang="scss" scoped>
   @import '../css/settings';
 
-  .centered {
-    margin-bottom: 30px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .investments-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .investment-item {
+    min-height: 290px;
+    border: 1px solid hsla(0,0%,100%,.1);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    img {
+      max-width: 50%;
+      display: block;
+    }
   }
 </style>
