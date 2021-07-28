@@ -1,5 +1,6 @@
 <template>
     <header class="top-header">
+        <top-banner></top-banner>
         <nav class="top-bar wrapper">
             <div class="top-bar-left">
                 <ul class="menu">
@@ -59,8 +60,10 @@
 
 <script>
   import Vue from 'vue';
+import TopBanner from '../top-banner.vue';
 
   export default {
+    components: { TopBanner },
     name: 'header',
     data() {
         return {
