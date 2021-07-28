@@ -8,6 +8,7 @@ input[type=email] {
 	&:focus {
 		border-bottom: 2px solid #eebc57;
 		background-color: inherit;
+		box-shadow: none;
 	}
 }
 
@@ -47,6 +48,7 @@ input[type=text] {
 	&:focus {
 		border-bottom: 2px solid #eebc57;
 		background-color: inherit;
+		box-shadow: none;
 	}
 }
 

@@ -20,8 +20,30 @@
               The Authentic Network is a resource to our portfolio companies and Network members. Our network helps our teams and each other think differently and win.
             </p>
             <p>
-              <a href="mailto:info@authentic-ventures.com">Get in touch</a> if you’d like to join the Authentic Network.
+              Sign up to connect with our community.
             </p>
+
+            <p>
+              We’ll send you periodic insights on the startup ecosystem, learnings from our portfolio companies, reading recommendations, and invites to our events.
+            </p>
+
+            <div id="contact-form">
+              <form method="post" action="">
+                <div class="form-row">
+                  <label for="name">Name:</label>
+                  <div class="d-flex">
+                    <input type="text" id="first_name" name="first_name" placeholder="First name">
+                    <input type="text" id="last_name" name="last_name" placeholder="Last name">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <label for="email">Email:</label><input type="email" id="email" name="email" placeholder="example@mail.com">
+                </div>
+                <div class="form-row">
+                  <button type="submit">Contact us</button>
+                </div>
+              </form>
+            </div>
         </div>
       </div>
     </div>
@@ -38,4 +60,24 @@
 
 <style lang="scss" scoped>
   @import '../css/settings';
+
+  .d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    input {
+      width: 49%;
+    }
+  }
+  .form-row button {
+    color: #EEBC57;
+    padding: 1em 2.8em;
+    border-radius: 4px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 18px;
+    border: solid 1px #EEBC57;
+    cursor: pointer;
+  }
 </style>
