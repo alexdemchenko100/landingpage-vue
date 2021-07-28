@@ -14,12 +14,8 @@
           <div class="about-bio--text medium-7 cell">
             <h3>LINDSAY LEE – MANAGING MEMBER</h3>
             <p>
-                Over his nearly 20 years as an investor in Silicon Valley, Lindsay has served as CIO for an investment management firm he helped grow to almost $1B and managed a family office where he built and managed an extremely successful seed and early-stage venture portfolio. He also co-founded a financial services software company and ran a direct investment fund.
+              Lindsay has been an investor in technology for nearly 20 years and has developed a strong network in Silicon Valley over the last two decades. Lindsay started his career at Merrill Lynch. Immediately following graduate school at Stanford, he co-founded a financial services software company.  He subsequently served as CIO for an investment management firm he helped to grow to almost $1B. He then started a small direct investment fund that invested primarily in public technology companies. Prior to starting Authentic, Lindsay managed a family office where built a highly successful seed and early stage portfolio. He led early stage investments in Applovin (APP), Guardant Health (GH), Apartment List, Cambly and several other successful investments. Lindsay received his BA in Economics (Phi Beta Kappa) from the University of Florida where he was awarded Outstanding Male Graduate. He received his MBA and JD degrees from Stanford University.
             </p>
-            <p>
-              Lindsay holds an MBA from Stanford’s Graduate School of Business and a J.D. from Stanford Law School. He also graduated Phi Beta Kapa in Economics from the University of Florida.
-            </p>
-            <p><router-link :to="{ name: 'investments'}">Prior Investments</router-link></p>
           </div>
         </div>
       </div>
