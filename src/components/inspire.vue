@@ -13,8 +13,10 @@
               Authentic manages a concentrated portfolio, and makes just 4-6 new investments each year.
             </p>
             <p>
-              We are hands-on and work closely with our companies. With the help of the Authentic Network, we work partner
-              with exceptional founders to help them succeed.
+              We are hands-on and work closely with our companies. With the help of the Authentic Network, we work partner with exceptional founders to help them succeed.
+            </p>
+            <p>
+              To date, about one third of our investments have been in fintech or software companies serving financial institutions.
             </p>
           </div>
         </div>
