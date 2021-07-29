@@ -106,7 +106,7 @@
         <h4>(Enterprise Software)</h4>
       </div>
     </div>
-    <p><router-link :to="{ name: 'investments'}">Prior Investments</router-link></p>
+    <p><router-link :to="{ name: 'investments', hash: '#prior' }">Prior Investments</router-link></p>
   </div>
 </template>
 

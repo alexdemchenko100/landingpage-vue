@@ -53,58 +53,61 @@
         <h4>Stealth Company</h4>
       </a>
     </div>
-    <div class="grid-x grid-margin-x prior-investments">
-      <div class="cell" style="margin-bottom:20px;">
-        <h4>Prior Investments</h4>
-      </div>
-    </div>
 
-    <div class="investments-grid" >
-      <a href="https://www.apartmentlist.com/" target="_blank" class="investment-item" >
-        <img src="/public/img/logos/apartment-list.png" alt="Apartment List" >
-      </a>
-      <a href="https://www.applovin.com/" target="_blank" class="investment-item" >
-        <img src="/public/img/logos/applovin.png" alt="AppLovin" >
-      </a>
-      <a href="https://basket.com/" target="_blank" class="investment-item" >
-        <img src="/public/img/logos/basket.svg" alt="Basket" >
-      </a>
-      <a href="http://brackets.io/" target="_blank" class="investment-item" >
-        <img src="/public/img/logos/basket.svg" alt="Brackets" >
-      </a>
-      <a href="https://www.cambly.com/" target="_blank" class="investment-item" >
-        <img src="/public/img/logos/cambly.png" alt="Cambly" >
-      </a>
-      <a href="https://www.chatsports.com/" target="_blank" class="investment-item" >
-        <img src="/public/img/logos/chatsports.png" alt="Chat Sports" >
-      </a>
-      <a href="https://fixed.net/" target="_blank" class="investment-item" >
-        <img src="/public/img/logos/fixed-logo.svg" alt="Fixed" >
-      </a>
-      <a href="https://www.fugue.co/" target="_blank" class="investment-item" >
-        <img src="/public/img/logos/fugue.png" alt="Fugue" >
-      </a>
-      <a href="https://gametime.co/" target="_blank" class="investment-item" >
-        <img src="/public/img/logos/gametime.png" alt="Game Time" >
-      </a>
-      <a href="https://guardanthealth.com/" target="_blank" class="investment-item" >
-        <img src="/public/img/logos/guardant.png" alt="Guardant health" >
-      </a>
-      <a href="https://imprint.us/" target="_blank" class="investment-item" >
-        <img src="/public/img/logos/imprint.svg" alt="Imprint" >
-      </a>
-      <a href="http://www.lumenetix.com/" target="_blank" class="investment-item" >
-        <img src="/public/img/logos/lumenetix.png" alt="Lumenetix" >
-      </a>
-      <a href="https://www.sisense.com/" target="_blank" class="investment-item" >
-        <img src="/public/img/logos/periscope-acq.png" alt="Periscope Data" >
-      </a>
-      <a href="https://www.therapydia.com/" target="_blank" class="investment-item" >
-        <img src="/public/img/logos/therapydia.png" alt="Therapydia" >
-      </a>
-      <a href="https://vacatia.com/" target="_blank" class="investment-item" >
-        <img src="/public/img/logos/vacatia.png" alt="Vacatia" >
-      </a>
+    <div id="prior" class="prior-investments">
+      <div class="grid-x grid-margin-x">
+        <div class="cell" style="margin-bottom:20px;">
+          <h4>Prior Investments</h4>
+        </div>
+      </div>
+
+      <div class="investments-grid" >
+        <a href="https://www.apartmentlist.com/" target="_blank" class="investment-item" >
+          <img src="/public/img/logos/apartment-list.png" alt="Apartment List" >
+        </a>
+        <a href="https://www.applovin.com/" target="_blank" class="investment-item" >
+          <img src="/public/img/logos/applovin.png" alt="AppLovin" >
+        </a>
+        <a href="https://basket.com/" target="_blank" class="investment-item" >
+          <img src="/public/img/logos/basket.svg" alt="Basket" >
+        </a>
+        <a href="http://brackets.io/" target="_blank" class="investment-item" >
+          <img src="/public/img/logos/basket.svg" alt="Brackets" >
+        </a>
+        <a href="https://www.cambly.com/" target="_blank" class="investment-item" >
+          <img src="/public/img/logos/cambly.png" alt="Cambly" >
+        </a>
+        <a href="https://www.chatsports.com/" target="_blank" class="investment-item" >
+          <img src="/public/img/logos/chatsports.png" alt="Chat Sports" >
+        </a>
+        <a href="https://fixed.net/" target="_blank" class="investment-item" >
+          <img src="/public/img/logos/fixed-logo.svg" alt="Fixed" >
+        </a>
+        <a href="https://www.fugue.co/" target="_blank" class="investment-item" >
+          <img src="/public/img/logos/fugue.png" alt="Fugue" >
+        </a>
+        <a href="https://gametime.co/" target="_blank" class="investment-item" >
+          <img src="/public/img/logos/gametime.png" alt="Game Time" >
+        </a>
+        <a href="https://guardanthealth.com/" target="_blank" class="investment-item" >
+          <img src="/public/img/logos/guardant.png" alt="Guardant health" >
+        </a>
+        <a href="https://imprint.us/" target="_blank" class="investment-item" >
+          <img src="/public/img/logos/imprint.svg" alt="Imprint" >
+        </a>
+        <a href="http://www.lumenetix.com/" target="_blank" class="investment-item" >
+          <img src="/public/img/logos/lumenetix.png" alt="Lumenetix" >
+        </a>
+        <a href="https://www.sisense.com/" target="_blank" class="investment-item" >
+          <img src="/public/img/logos/periscope-acq.png" alt="Periscope Data" >
+        </a>
+        <a href="https://www.therapydia.com/" target="_blank" class="investment-item" >
+          <img src="/public/img/logos/therapydia.png" alt="Therapydia" >
+        </a>
+        <a href="https://vacatia.com/" target="_blank" class="investment-item" >
+          <img src="/public/img/logos/vacatia.png" alt="Vacatia" >
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -140,6 +143,6 @@
     }
   }
   .prior-investments {
-    margin-top: 5em;
+    padding-top: 5em;
   }
 </style>

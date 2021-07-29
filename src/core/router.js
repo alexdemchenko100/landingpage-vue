@@ -234,7 +234,16 @@ export function createRouter (store) {
         path: '/investments',
         component: () => import(/* webpackChunkName: "investments" */ '../components/investments.vue'),
       }
-    ]
+    ],
+    scrollBehavior (to, from, savedPosition) {
+      if (to.hash) {
+        return {
+          selector: to.hash,
+          behavior: 'smooth',
+        }
+      }
+      return { x: 0, y: 0 }
+    }
   });
 
   return router;
