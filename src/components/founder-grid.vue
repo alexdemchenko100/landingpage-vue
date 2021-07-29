@@ -2,25 +2,11 @@
   <div class="founders" id="founders">
     <div class="founder-grid">
       <div class="founder two-col">
-        <a href="https://pilot.com/" target="_blank">
-          <img src="public/img/founders/pilot.jpg" class="bg">
+        <a href="https://inaccord.com/" target="_blank">
+          <img src="public/img/founders/Accord Founders.png" class="bg">
         </a>
-        <img src="/public/img/logos/pilot.png" class="founder-logo">
-        <h4>Jessica McKellar, Jeff Arnold, and Waseem Daher</h4>
-      </div>
-      <div class="founder">
-        <a href="https://cloud.name-coach.com/" target="_blank">
-          <img src="public/img/founders/praveen.jpg" class="bg">
-        </a>
-        <img src="/public/img/logos/namecoach.png" class="founder-logo">
-        <h4>Praveen Shanbhag</h4>
-      </div>
-      <div class="founder">
-        <a href="https://www.datatron.com/" target="_blank">
-          <img src="public/img/founders/harish_jerry.jpg" class="bg">
-        </a>
-        <img src="/public/img/logos/datatron.png" class="founder-logo">
-        <h4>Harish Doddi &amp; Jerry Xu</h4>
+        <img src="/public/img/logos/accord.svg" class="founder-logo">
+        <h4>Ryan Rich, Ross Rich, and Wayne Pan</h4>
       </div>
       <div class="founder">
         <a href="https://www.aiinsurance.io/" target="_blank">
@@ -29,12 +15,26 @@
         <img src="/public/img/logos/ai.png" class="founder-logo">
         <h4>Cameron MacArthur</h4>
       </div>
-      <div class="founder kuli">
-        <a href="https://www.kulikulifoods.com/" target="_blank">
-          <img src="public/img/founders/lisa-kuli-kuli.jpg" class="bg">
+      <div class="founder">
+        <a href="https://www.amiralearning.com" target="_blank">
+          <img src="public/img/founders/mark-angel.png" class="bg">
         </a>
-        <img src="/public/img/logos/kulikuli.png" class="founder-logo">
-        <h4>Lisa Curtis</h4>
+        <img src="/public/img/logos/AmiraLogo.svg" class="founder-logo">
+        <h4>Mark Angel</h4>
+      </div>
+      <div class="founder two-col start-from-second">
+        <a href="https://www.datatron.com/" target="_blank">
+          <img src="public/img/founders/harish_jerry.jpg" class="bg">
+        </a>
+        <img src="/public/img/logos/datatron.png" class="founder-logo">
+        <h4>Harish Doddi &amp; Jerry Xu</h4>
+      </div>
+      <div class="founder">
+        <a href="http://hdphealth.com/" target="_blank">
+          &nbsp;
+        </a>
+        <img src="/public/img/logos/HDP_Health.png" class="founder-logo">
+        <h4>(Private Company)</h4>
       </div>
       <div class="founder kit">
         <a href="/founders/camille-hearst" class="">
@@ -45,6 +45,20 @@
           Camille Hearst
         </h4>
       </div>
+      <div class="founder kuli">
+        <a href="https://www.kulikulifoods.com/" target="_blank">
+          <img src="public/img/founders/lisa-kuli-kuli.jpg" class="bg">
+        </a>
+        <img src="/public/img/logos/kulikuli.png" class="founder-logo">
+        <h4>Lisa Curtis</h4>
+      </div>
+      <div class="founder">
+        <a href="https://cloud.name-coach.com/" target="_blank">
+          <img src="public/img/founders/praveen.jpg" class="bg">
+        </a>
+        <img src="/public/img/logos/namecoach.png" class="founder-logo">
+        <h4>Praveen Shanbhag</h4>
+      </div>
       <div class="founder">
         <a href="https://newdayimpact.com/" target="_blank">
           <img src="public/img/founders/doug.jpg" class="bg">
@@ -53,10 +67,46 @@
         <h4>Doug Heske</h4>
       </div>
       <div class="founder">
-        <h4>Stealth Company</h4>
+        <a href="https://www.offsight.com/" target="_blank">
+          <img src="public/img/founders/vikas.jpeg" class="bg">
+        </a>
+        <img src="/public/img/logos/offsight.svg" class="founder-logo">
+        <h4>Vikas Murali</h4>
+      </div>
+      <div class="founder two-col">
+        <a href="https://pilot.com/" target="_blank">
+          <img src="public/img/founders/pilot.jpg" class="bg">
+        </a>
+        <img src="/public/img/logos/pilot.png" class="founder-logo">
+        <h4>Jessica McKellar, Jeff Arnold, and Waseem Daher</h4>
+      </div>
+      <div class="founder">
+        <a href="https://trysparrow.com/" target="_blank">
+          <img src="public/img/founders/deborah.jpeg" class="bg">
+        </a>
+        <img src="/public/img/logos/sparrow.svg" class="founder-logo">
+        <h4>Deborah Hanus</h4>
+      </div>
+      <div class="founder">
+        <a href="https://superheroic.com/" target="_blank">
+          <img src="public/img/founders/harshal.png" class="bg">
+        </a>
+        <img src="/public/img/logos/SuperHeroic.png" class="founder-logo">
+        <h4>Harshal Sisodia</h4>
+      </div>
+      <div class="founder">
+        <a href="https://www.wizelyfinance.com" target="_blank">
+          <img src="public/img/founders/asmat.jpeg" class="bg">
+        </a>
+        <img src="/public/img/logos/wizely.png" class="founder-logo">
+        <h4>Asmat Sami Siddiqui</h4>
+      </div>
+      <div class="founder">
+        <h4 class="company">Stealth Company</h4>
         <h4>(Enterprise Software)</h4>
       </div>
     </div>
+    <p><router-link :to="{ name: 'investments'}">Prior Investments</router-link></p>
   </div>
 </template>
 

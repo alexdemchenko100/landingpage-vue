@@ -10,7 +10,7 @@
       <a href="https://www.applovin.com/" target="_blank" class="investment-item" >
         <img src="/public/img/logos/ai.png" alt="AI Insurance" >
       </a>
-      <a href="https://guardanthealth.com/" target="_blank" class="investment-item" >
+      <a href="https://inaccord.com/" target="_blank" class="investment-item" >
         <img src="/public/img/logos/accord.svg" alt="Accord" >
       </a>
       <a href="https://www.amiralearning.com" target="_blank" class="investment-item" >
@@ -20,10 +20,10 @@
         <img src="/public/img/logos/datatron.png" alt="Datatron" >
       </a>
       <a href="http://hdphealth.com/" target="_blank" class="investment-item" >
-        <img src="/public/img/logos/HDP_Health.png" alt="HDP Health *Inactive*" >
+        <img src="/public/img/logos/HDP_Health.png" alt="HDP Health" >
       </a>
       <a href="https://patreon.com/" target="_blank" class="investment-item" >
-        <img src="/public/img/logos/kit-patreon.png" alt="Kit *Acq. Patreon*" >
+        <img src="/public/img/logos/kit-patreon.png" alt="Kit Acq. Patreon" >
       </a>
       <a href="https://www.kulikulifoods.com/" target="_blank" class="investment-item" >
         <img src="/public/img/logos/kulikuli.png" alt="kuli kuli" >
@@ -43,7 +43,7 @@
       <a href="https://trysparrow.com/" target="_blank" class="investment-item" >
         <img src="/public/img/logos/sparrow.svg" alt="Sparrow" >
       </a>
-      <a href="" target="_blank" class="investment-item" >
+      <a href="https://superheroic.com/" target="_blank" class="investment-item" >
         <img src="/public/img/logos/SuperHeroic.png" alt="Superheroic" >
       </a>
       <a href="https://www.wizelyfinance.com" target="_blank" class="investment-item" >
@@ -90,17 +90,17 @@
       <a href="https://guardanthealth.com/" target="_blank" class="investment-item" >
         <img src="/public/img/logos/guardant.png" alt="Guardant health" >
       </a>
-      <a href="https://imprint.com/" target="_blank" class="investment-item" >
-        <img src="" alt="Imprint" >
+      <a href="https://imprint.us/" target="_blank" class="investment-item" >
+        <img src="/public/img/logos/imprint.svg" alt="Imprint" >
       </a>
       <a href="http://www.lumenetix.com/" target="_blank" class="investment-item" >
-        <img src="" alt="Lumenetix" >
+        <img src="/public/img/logos/lumenetix.png" alt="Lumenetix" >
       </a>
       <a href="https://www.sisense.com/" target="_blank" class="investment-item" >
         <img src="/public/img/logos/periscope-acq.png" alt="Periscope Data" >
       </a>
       <a href="https://www.therapydia.com/" target="_blank" class="investment-item" >
-        <img src="" alt="Therapydia" >
+        <img src="/public/img/logos/therapydia.png" alt="Therapydia" >
       </a>
       <a href="https://vacatia.com/" target="_blank" class="investment-item" >
         <img src="/public/img/logos/vacatia.png" alt="Vacatia" >

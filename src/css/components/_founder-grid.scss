@@ -38,7 +38,7 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-bottom: 120px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 680px) {
@@ -93,6 +93,11 @@
   &.two-col {
     grid-column-start: 1;
     grid-column-end: 3;
+
+    &.start-from-second {
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
   }
 
   h4 {
@@ -145,6 +150,14 @@
 
   &:hover .bg {
     display: block;
+  }
+
+  h4.company {
+    margin-top: 50%;
+    font-size: 1.6em;
+    line-height: 1.5em;
+    transform: translatey(-100%);
+    pointer-events: none;
   }
 }
 
