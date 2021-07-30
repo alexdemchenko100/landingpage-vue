@@ -15,14 +15,14 @@
         <img src="/public/img/logos/ai.png" class="founder-logo">
         <h4>Cameron MacArthur</h4>
       </div>
-      <div class="founder">
+      <div class="founder two-col">
         <a href="https://www.amiralearning.com" target="_blank">
-          <img src="public/img/founders/mark-angel.png" class="bg">
+          <img src="public/img/founders/mark_and_pete.png" class="bg">
         </a>
         <img src="/public/img/logos/AmiraLogo.svg" class="founder-logo">
-        <h4>Mark Angel</h4>
+        <h4>Mark Angel &amp; Pete Jungwith</h4>
       </div>
-      <div class="founder two-col start-from-second">
+      <div class="founder">
         <a href="https://www.datatron.com/" target="_blank">
           <img src="public/img/founders/harish_jerry.jpg" class="bg">
         </a>
@@ -30,11 +30,14 @@
         <h4>Harish Doddi &amp; Jerry Xu</h4>
       </div>
       <div class="founder">
-        <a href="http://hdphealth.com/" target="_blank">
-          &nbsp;
+        <a>
+          <img src="public/img/founders/brian-clark.png" class="bg">
         </a>
-        <img src="/public/img/logos/HDP_Health.png" class="founder-logo">
-        <h4>(Private Company)</h4>
+        <div class="founder-logo">
+          <img src="/public/img/logos/HDP_Health.png">
+          <span class="tag">Inactive</span>
+        </div>
+        <h4>Brian Clark</h4>
       </div>
       <div class="founder kit">
         <a href="/founders/camille-hearst" class="">
@@ -68,10 +71,10 @@
       </div>
       <div class="founder">
         <a href="https://www.offsight.com/" target="_blank">
-          <img src="public/img/founders/vikas.jpeg" class="bg">
+          <img src="public/img/founders/vikas_and_andrew.png" class="bg object-fit-unset">
         </a>
         <img src="/public/img/logos/offsight.svg" class="founder-logo">
-        <h4>Vikas Murali</h4>
+        <h4>Vikas Murali &amp; Andrew Xue</h4>
       </div>
       <div class="founder two-col">
         <a href="https://pilot.com/" target="_blank">
@@ -88,18 +91,31 @@
         <h4>Deborah Hanus</h4>
       </div>
       <div class="founder">
-        <a href="https://superheroic.com/" target="_blank">
-          <img src="public/img/founders/harshal.png" class="bg">
+        <a>
+          <img src="public/img/founders/jason.png" class="bg">
         </a>
-        <img src="/public/img/logos/SuperHeroic.png" class="founder-logo">
-        <h4>Harshal Sisodia</h4>
+        <div class="founder-logo">
+          <img src="/public/img/logos/SuperHeroic.png">
+          <span class="tag">Inactive</span>
+        </div>
+        <h4>Jason Mayden</h4>
       </div>
       <div class="founder">
-        <a href="https://www.wizelyfinance.com" target="_blank">
-          <img src="public/img/founders/asmat.jpeg" class="bg">
+        <a href="https://www.wander.com/" target="_blank">
+          <img src="public/img/founders/john-andrew.jpeg" class="bg">
         </a>
-        <img src="/public/img/logos/wizely.png" class="founder-logo">
-        <h4>Asmat Sami Siddiqui</h4>
+        <img src="/public/img/logos/wander.png" class="founder-logo">
+        <h4>John Andrew Entwistle</h4>
+      </div>
+      <div class="founder">
+        <a>
+          <img src="public/img/founders/paris.png" class="bg">
+        </a>
+        <div class="founder-logo">
+          <img src="/public/img/logos/wizely.png">
+          <span class="tag">Inactive</span>
+        </div>
+        <h4>Paris Benson</h4>
       </div>
       <div class="founder">
         <h4 class="company">Stealth Company</h4>
@@ -117,5 +133,7 @@
 </script>
 
 <style lang="scss" scoped>
-
+  .object-fit-unset {
+    object-fit: unset;
+  }
 </style>

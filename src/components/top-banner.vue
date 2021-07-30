@@ -1,6 +1,6 @@
 <template>
   <div class="top-banner" :class="isVisible ? '' : 'hidden'">
-    <router-link :to="{ name: 'founders' }">Subscribe to get insights from our companies and invites to our events.</router-link>
+    <router-link :to="{ name: 'network', hash: '#contact-us' }">Subscribe to get insights from our companies and invites to our events.</router-link>
   </div>
 </template>
 

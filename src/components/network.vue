@@ -16,7 +16,7 @@
             <p>
               The Authentic Network is a unique, inclusive and value-centric network of talent and subject matter experts. A community of like-minded entrepreneurs, founders, investors and growth hackers, the Authentic Network is committed to solving meaningful problems together.
             </p>
-            <p>
+            <p id="contact-us">
               The Authentic Network is a resource to our portfolio companies and Network members. Our network helps our teams and each other think differently and win.
             </p>
             <p>
@@ -40,7 +40,7 @@
                   <label for="email">Email:</label><input type="email" id="email" name="email" placeholder="example@mail.com">
                 </div>
                 <div class="form-row">
-                  <button type="submit">Contact us</button>
+                  <button type="submit">Submit</button>
                 </div>
               </form>
             </div>

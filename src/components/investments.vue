@@ -67,12 +67,13 @@
         </a>
         <a href="https://www.applovin.com/" target="_blank" class="investment-item" >
           <img src="/public/img/logos/applovin.png" alt="AppLovin" >
+          <h4>(NYSE: APP)</h4>
         </a>
         <a href="https://basket.com/" target="_blank" class="investment-item" >
           <img src="/public/img/logos/basket.svg" alt="Basket" >
         </a>
         <a href="http://brackets.io/" target="_blank" class="investment-item" >
-          <img src="/public/img/logos/basket.svg" alt="Brackets" >
+          <img src="/public/img/logos/brackets.png" alt="Brackets" >
         </a>
         <a href="https://www.cambly.com/" target="_blank" class="investment-item" >
           <img src="/public/img/logos/cambly.png" alt="Cambly" >
@@ -91,6 +92,7 @@
         </a>
         <a href="https://guardanthealth.com/" target="_blank" class="investment-item" >
           <img src="/public/img/logos/guardant.png" alt="Guardant health" >
+          <h4>(NYSE: GH)</h4>
         </a>
         <a href="https://imprint.us/" target="_blank" class="investment-item" >
           <img src="/public/img/logos/imprint.svg" alt="Imprint" >
@@ -108,6 +110,7 @@
           <img src="/public/img/logos/vacatia.png" alt="Vacatia" >
         </a>
       </div>
+      <p>*Note: Prior Investments refers to investments by the team prior to Authentic Ventures</p>
     </div>
   </div>
 </template>
@@ -128,6 +131,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
   }
 
   .investment-item {
@@ -136,6 +140,16 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
+    position: relative;
+
+    h4 {
+      margin: 0;
+      font-size: 12px;
+      letter-spacing: 3px;
+      position: absolute;
+      bottom: 30px;
+    }
     
     img {
       max-width: 50%;
