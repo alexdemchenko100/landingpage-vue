@@ -36,6 +36,7 @@
       text-decoration: none;
       line-height: 1em;
       font-weight: 600;
+      text-align: center;
     }
 
     &.hidden {

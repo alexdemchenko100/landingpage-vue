@@ -13,13 +13,13 @@
       <a href="https://inaccord.com/" target="_blank" class="investment-item" >
         <img src="/public/img/logos/accord.svg" alt="Accord" >
       </a>
-      <a href="https://www.amiralearning.com" target="_blank" class="investment-item" >
+      <a class="investment-item" target="_blank" href="https://www.amiralearning.com">
         <img src="/public/img/logos/AmiraLogo.svg" alt="Amira Learning" >
       </a>
       <a href="https://www.datatron.com/" target="_blank" class="investment-item" >
         <img src="/public/img/logos/datatron.png" alt="Datatron" >
       </a>
-      <a href="http://hdphealth.com/" target="_blank" class="investment-item" >
+      <a class="investment-item" >
         <img src="/public/img/logos/HDP_Health.png" alt="HDP Health" >
       </a>
       <a href="https://patreon.com/" target="_blank" class="investment-item" >
@@ -43,7 +43,7 @@
       <a href="https://trysparrow.com/" target="_blank" class="investment-item" >
         <img src="/public/img/logos/sparrow.svg" alt="Sparrow" >
       </a>
-      <a href="https://superheroic.com/" target="_blank" class="investment-item" >
+      <a class="investment-item" >
         <img src="/public/img/logos/SuperHeroic.png" alt="Superheroic" >
       </a>
       <a href="https://www.wizelyfinance.com" target="_blank" class="investment-item" >
@@ -72,8 +72,9 @@
         <a href="https://basket.com/" target="_blank" class="investment-item" >
           <img src="/public/img/logos/basket.svg" alt="Basket" >
         </a>
-        <a href="http://brackets.io/" target="_blank" class="investment-item" >
-          <img src="/public/img/logos/brackets.png" alt="Brackets" >
+        <a href="https://www.brkt.com/" target="_blank" class="investment-item" >
+          <img src="/public/img/logos/bracket-computing.png" alt="Bracket Computing" >
+          <h4>(INACTIVE)</h4>
         </a>
         <a href="https://www.cambly.com/" target="_blank" class="investment-item" >
           <img src="/public/img/logos/cambly.png" alt="Cambly" >
@@ -83,6 +84,7 @@
         </a>
         <a href="https://fixed.net/" target="_blank" class="investment-item" >
           <img src="/public/img/logos/fixed-logo.svg" alt="Fixed" >
+          <h4>(INACTIVE)</h4>
         </a>
         <a href="https://www.fugue.co/" target="_blank" class="investment-item" >
           <img src="/public/img/logos/fugue.png" alt="Fugue" >
@@ -96,6 +98,7 @@
         </a>
         <a href="https://imprint.us/" target="_blank" class="investment-item" >
           <img src="/public/img/logos/imprint.svg" alt="Imprint" >
+          <h4>(INACTIVE)</h4>
         </a>
         <a href="http://www.lumenetix.com/" target="_blank" class="investment-item" >
           <img src="/public/img/logos/lumenetix.png" alt="Lumenetix" >

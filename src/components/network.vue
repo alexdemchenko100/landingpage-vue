@@ -80,4 +80,19 @@
     border: solid 1px #EEBC57;
     cursor: pointer;
   }
+
+  @media (max-width: 680px) {
+    .d-flex {
+      flex-flow: row wrap;
+
+      input {
+        width: 100%;
+        margin-bottom: 1.6em;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
 </style>
