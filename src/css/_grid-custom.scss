@@ -82,3 +82,9 @@
 		padding-top: 12rem;
 	}
 }
+
+@media (max-width: 680px) {
+	.no-hero {
+		padding-top: calc(6vw + 120px);
+	}
+}

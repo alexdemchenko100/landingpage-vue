@@ -22,7 +22,7 @@
       <a class="investment-item" >
         <img src="/public/img/logos/HDP_Health.png" alt="HDP Health" >
       </a>
-      <a href="https://patreon.com/" target="_blank" class="investment-item" >
+      <a href="https://patreon.com/" target="_blank" class="investment-item kit" >
         <img src="/public/img/logos/kit-patreon.png" alt="Kit Acq. Patreon" >
       </a>
       <a href="https://www.kulikulifoods.com/" target="_blank" class="investment-item" >
@@ -135,6 +135,10 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+
+    @media (max-width: 680px) {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 
   .investment-item {
@@ -157,6 +161,24 @@
     img {
       max-width: 50%;
       display: block;
+    }
+
+    @media (max-width: 680px) {
+      min-height: 220px;
+
+      h4 {
+        bottom: 15px;
+      }
+
+      img {
+        max-width: 70%;
+      }
+
+      &.kit {
+        img {
+          max-width: 90%;
+        }
+      }
     }
   }
   .prior-investments {

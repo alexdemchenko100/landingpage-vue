@@ -1,6 +1,6 @@
 <template>
     <header class="top-header">
-        <top-banner></top-banner>
+        <top-banner v-if="collapsed"></top-banner>
         <nav class="top-bar wrapper">
             <div class="top-bar-left">
                 <ul class="menu">
@@ -40,7 +40,7 @@
                     <span v-on:click=" collapsed = !collapsed">Menu</span>
                 </a>
             </div>
-            <div v-if="!collapsed" class="menu-small show-for-small-only">
+            <div v-if="!collapsed" class="menu-small show-for-small-only" @click="collapsed=true">
                 <router-link :to="{ name: 'founders' }" class="block-link vertical-align-middle">
                     Founders
                 </router-link>

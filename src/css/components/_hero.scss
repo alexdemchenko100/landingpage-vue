@@ -70,6 +70,7 @@
 .hero-header {
 	text-align: center;
 	z-index: 99;
+	width: 100%;
 }
 
 .founder-header--name {
@@ -135,4 +136,14 @@
 		font-size: 180px;
 	}
 
+}
+
+@media (max-width: 680px) {
+	.hero__team {
+		padding-top: 30%;
+		
+		.hero-header img {
+			width: 75%;
+		}
+	}
 }

@@ -71,5 +71,6 @@
 
   .hero-header img {
     max-width: 440px;
+    width: 90%;
   }
 </style>

@@ -6,4 +6,10 @@
 		letter-spacing: 8px;
 		font-size: 15px;
 	}
+
+	@media (max-width: 680px) {
+		&--image {
+			margin-bottom: 15px;
+		}
+	}
 }
