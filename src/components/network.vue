@@ -71,9 +71,11 @@
             },
             {
               headers: {
-                'Content-Type': 'text/xml'
+                'Accept': 'application/xml',
+                'Content-Type': 'application/json'
               },
-              crossDomain: true
+              crossDomain: true,
+              responseType: 'document',
             }
           ).then(res => {
             console.log('------- response: ', res);
