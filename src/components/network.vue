@@ -26,21 +26,22 @@
             <p>
               We’ll send you periodic insights on the startup ecosystem, learnings from our portfolio companies, reading recommendations, and invites to our events.
             </p>
-
             <div id="contact-form">
-              <div class="form-row">
-                <label for="name">Name:</label>
-                <div class="d-flex">
-                  <input type="text" id="first_name" name="first_name" placeholder="First name" v-model="formData.first_name">
-                  <input type="text" id="last_name" name="last_name" placeholder="Last name" v-model="formData.last_name">
+              <form @submit="submitForm($event)">
+                <div class="form-row">
+                  <label for="name">Name:</label>
+                  <div class="d-flex">
+                    <input type="text" id="first_name" name="first_name" placeholder="First name" required v-model="formData.first_name">
+                    <input type="text" id="last_name" name="last_name" placeholder="Last name" required v-model="formData.last_name">
+                  </div>
                 </div>
-              </div>
-              <div class="form-row">
-                <label for="email">Email:</label><input type="email" id="email" name="email" placeholder="example@mail.com" v-model="formData.email">
-              </div>
-              <div class="form-row">
-                <button @click="submitForm">Submit</button>
-              </div>
+                <div class="form-row">
+                  <label for="email">Email:</label><input type="email" id="email" required name="email" placeholder="example@mail.com" v-model="formData.email">
+                </div>
+                <div class="form-row">
+                  <button type="submit">Submit</button>
+                </div>
+              </form>
             </div>
         </div>
       </div>
@@ -49,7 +50,7 @@
 </template>
 
 <script>
-  import axios from 'axios';
+  import jQuery from 'jquery';
 
   export default {
     name: 'network',
@@ -61,27 +62,27 @@
       }
     }),
     methods: {
-      submitForm() {
-          axios.post(
-            'https://docs.google.com/forms/d/e/1FAIpQLSdUzPtRvaAngwEpSeDxUCjebIgD9WNp4SiGDEAl3IZe2JL1qw/formResponse',
-            {
-              'entry.1676144671': this.formData.first_name,
-              'entry.1500374322': this.formData.last_name,
-              'entry.849404632': this.formData.email,
-            },
-            {
-              headers: {
-                'Accept': 'application/xml',
-                'Content-Type': 'application/json'
-              },
-              crossDomain: true,
-              responseType: 'document',
-            }
-          ).then(res => {
-            console.log('------- response: ', res);
-          }).catch(error => {
-            alert(error.message);
-          });
+      submitForm(e) {
+        e.preventDefault();
+        jQuery.ajax({
+          url: 'https://docs.google.com/forms/d/e/1FAIpQLSdUzPtRvaAngwEpSeDxUCjebIgD9WNp4SiGDEAl3IZe2JL1qw/formResponse',
+          type: 'POST',
+          crossDomain: true,
+          dataType: "xml",
+          data: {
+            'entry.1676144671': this.formData.first_name,
+            'entry.1500374322': this.formData.last_name,
+            'entry.849404632': this.formData.email,
+          },
+          success: function(jqXHR, textStatus, errorThrown) {
+            console.log('Enter on success');
+            window.alert('Thanks! Your form has been submitted!')
+          },
+          error: function(jqXHR, textStatus, errorThrown) {
+            console.log('Enter on error');
+            window.alert('Thanks! Your form has been submitted!')
+          }
+        });
       }
     }
   }

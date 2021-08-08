@@ -68,7 +68,8 @@
     "webpack-hot-middleware": "^2.18.2",
     "webpack-merge": "^4.1.0",
     "webpack-node-externals": "^1.6.0",
-    "webpack-sources": "1.0.1"
+    "webpack-sources": "1.0.1",
+    "jquery": "3.6.0"
   },
   "engines": {
     "node": "^6.10.0",
