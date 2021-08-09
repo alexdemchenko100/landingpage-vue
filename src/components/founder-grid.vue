@@ -49,7 +49,7 @@
           url: 'https://www.amiralearning.com',
           founders: {
             img: 'public/img/founders/mark_and_pete.png',
-            names: 'Mark Angel &amp; Pete Jungwith',
+            names: 'Mark Angel & Pete Jungwith',
           }
         },
         {
@@ -57,7 +57,7 @@
           url: 'https://www.datatron.com/',
           founders: {
             img: 'public/img/founders/harish_jerry.jpg',
-            names: 'Harish Doddi &amp; Jerry Xu',
+            names: 'Harish Doddi & Jerry Xu',
           }
         },
         {
@@ -105,15 +105,16 @@
           }
         },
         {
+          class: 'offsight',
           url: 'https://www.offsight.com/',
           logo: '/public/img/logos/offsight.svg',
           founders: {
-            img: 'public/img/founders/vikas_and_andrew.png',
-            names: 'Vikas Murali &amp; Andrew Xue',
+            img: 'public/img/founders/offsight-founders-white.png',
+            names: 'Vikas Murali & Andrew Xue',
           }
         },
         {
-          class: 'two-col',
+          class: 'two-col pilot',
           url: 'https://pilot.com/',
           logo: '/public/img/logos/pilot.png',
           founders: {
