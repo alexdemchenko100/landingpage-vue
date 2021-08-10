@@ -240,6 +240,13 @@
     max-height: 120px;
   }
 
+  .founder.offsight a img.bg {
+    height: auto;
+    width: 100%;
+    bottom: 0;
+    top: unset;
+  }
+
   .founder h4.company {
     margin-top: 38%;
   }
