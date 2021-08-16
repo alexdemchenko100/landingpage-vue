@@ -160,11 +160,13 @@
     }),
     methods: {
       eventHandlerForMobile(e, index) {
-        if (window.innerWidth < 600 && this.hoverItem == index) {
-          this.hoverItem = null;
-        } else {
-          e.preventDefault();
-          this.hoverItem = index;
+        if (window.innerWidth < 600) {
+          if (this.hoverItem == index) {
+            this.hoverItem = null;
+          } else {
+            e.preventDefault();
+            this.hoverItem = index;
+          }
         }
       }
     }

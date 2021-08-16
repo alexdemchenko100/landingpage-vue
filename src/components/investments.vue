@@ -72,7 +72,7 @@
         <a href="https://basket.com/" target="_blank" class="investment-item" >
           <img src="/public/img/logos/basket.svg" alt="Basket" >
         </a>
-        <a href="https://www.brkt.com/" target="_blank" class="investment-item" >
+        <a class="investment-item" >
           <img src="/public/img/logos/bracket-computing.png" alt="Bracket Computing" >
           <h4>(INACTIVE)</h4>
         </a>
