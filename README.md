@@ -33,6 +33,23 @@ You should new see the site by going to `localhost:3000` in a browser
 
 NOTE: if the server doesn't work at first, try saving any file in the `server/` directory
 
+## Deployment
+
+**You should have Heroku Dahsboard Access**
+
+Install Heroku CLI
+https://devcenter.heroku.com/articles/heroku-cli
+
+Login Heroku
+```bash
+heroku login
+```
+
+Push git commits to main branch of Heroku
+```bash
+git push heroku main
+```
+
 ## License
 
 MIT
