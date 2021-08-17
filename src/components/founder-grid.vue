@@ -2,7 +2,10 @@
   <div class="founders" id="founders">
     <div class="founder-grid">
       <div class="founder" :class="founder.class" v-for="(founder, idx) in founders" :key="idx" @click="eventHandlerForMobile($event, idx)">
-        <a :href="founder.url" :target="founder.local ? '' : '_blank'">
+        <a v-if="founder.url" :href="founder.url" :target="founder.local ? '' : '_blank'">
+          <img :src="founder.founders.img" class="bg">
+        </a>
+        <a v-else>
           <img :src="founder.founders.img" class="bg">
         </a>
         <div class="founder-logo">
