@@ -7,7 +7,7 @@
     </div>
 
     <div class="investments-grid" >
-      <a href="https://www.applovin.com/" target="_blank" class="investment-item" >
+      <a href="https://www.aiinsurance.io/" target="_blank" class="investment-item" >
         <img src="/public/img/logos/ai.png" alt="AI Insurance" >
       </a>
       <a href="https://inaccord.com/" target="_blank" class="investment-item" >
