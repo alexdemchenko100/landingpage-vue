@@ -21,6 +21,7 @@
       </a>
       <a class="investment-item" >
         <img src="/public/img/logos/HDP_Health.png" alt="HDP Health" >
+        <h4>(INACTIVE)</h4>
       </a>
       <a href="https://patreon.com/" target="_blank" class="investment-item kit" >
         <img src="/public/img/logos/kit-patreon.png" alt="Kit Acq. Patreon" >
@@ -45,9 +46,11 @@
       </a>
       <a class="investment-item" >
         <img src="/public/img/logos/SuperHeroic.png" alt="Superheroic" >
+        <h4>(INACTIVE)</h4>
       </a>
-      <a href="https://www.wizelyfinance.com" target="_blank" class="investment-item" >
+      <a class="investment-item" >
         <img src="/public/img/logos/wizely.png" alt="wizely finance" >
+        <h4>(INACTIVE)</h4>
       </a>
       <a class="investment-item">
         <h4>Stealth Company</h4>
